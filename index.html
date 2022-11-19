@@ -14,15 +14,15 @@
 </head>
 
 <body>
-    <div id="container">
-        <!--inicio do container-->
-        <header>
-            <!--inicio do header-->
+    <div id="container"><!--inicio do container-->  
+        
+        <header><!--inicio do header-->
+            
             <div id="logo">
                 <h1><a href="">Museu Nacional</a></h1>
             </div>
-            <nav>
-                <!--incio nav-->
+            <nav><!--incio nav-->
+                
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Exposições</a></li>
@@ -32,31 +32,73 @@
                     <li><a href="">Fotos</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
-            </nav>
-            <!--final nav-->
-        </header>
-        <!--final do header-->
+            </nav><!--final nav-->
+            
+        </header><!--final do header-->
+        
 
-        <div id="principal"><!--incio principal-->
+        <div id="principal"> <!--incio principal-->
+           
             <div id="conteudo"><!--inicio conteudo-->
+                
                 <section id="capa">
                     <img src="/img/museu.png" alt="">
 
                 </section>
             </div><!--final conteudo-->
+            
 
             <aside><!--inico aside-->
+                
                 <section id="depoimente">
+                    <img src="/img/depoimento.png" alt="">
+                </section>
+                <section id="visita"><!--inicio seção visita-->
+                    <h4>Faça uma Visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/aa/aaaa">
+
+                            <label for="Qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="Qtd" value="1">
+                            
+                        </fieldset>
+                        <input class="botao" type="submit" value="verificar disponibilidade">
+                    </form>
+                </section><!--fim seção visita-->
+                <section id="galeria" >
+                    <h4>Galeria de fotos</h4>
+
+                    <a href="">
+                        <img src="/img/imagem1.jpg" height="93" width="93"
+                         alt="Descricao imagem" >    
+                    </a>
+
+                    <a href="">
+                        <img src="/img/imagem2.jpg" height="93" width="93"
+                         alt="">    
+                    </a>
+
+                    <a href="">
+                        <img src="/img/imagem3.jpg" height="93" width="93" alt="">    
+                    </a>
+
+                    <a href="">
+                        <img src="/img/imagem4.jpg" height="93" width="93" alt="" >    
+                    </a>
 
                 </section>
-            </aside><!--final asside-->
+            </aside> <!--final asside-->
 
         </div><!--final principal-->
 
 
 
-    </div>
-    <!--final do container-->
+    </div> <!--final do container-->
+   
 
 </body>
 
